@@ -24,8 +24,8 @@ function writeCards(namesArray, eventName) {
   
   function countDownn(number) {
     let i = 0;
-    while(i > number);{
-        i--
+    while(i >= number);{
+        i++
         console.log(i);
     }
     
